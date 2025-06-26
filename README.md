@@ -23,19 +23,19 @@ A powerful Android library for AI-powered review analysis using **OpenAI** and *
 
 <div align="center">
 
-| Setup & Configuration | Provider Selection | Analysis Screen (Ready) |
+| Setup & Configuration | Provider Selection | Analysis Started |
 |:---:|:---:|:---:|
-| ![Setup](screenshots/Screenshot_1750924495.png) | ![Provider](screenshots/Screenshot_1750924506.png) | ![Ready](screenshots/Screenshot_1750924509.png) |
-| API Key Setup | Provider Selection | Analysis Ready |
+| ![Setup](screenshots/Screenshot_1750924495.png) | ![Provider](screenshots/Screenshot_1750924506.png) | ![Started](screenshots/Screenshot_1750924509.png) |
+| API Key Setup | Provider Selection | Analysis in Progress |
 
-| Analysis Started | Reviews & Results | AI Response |
+| Analysis Screen (Ready) | Reviews & Results | AI Response |
 |:---:|:---:|:---:|
-| ![Started](screenshots/Screenshot_1750924511.png) | ![Keywords](screenshots/Screenshot_1750924536.png) | ![Complete](screenshots/Screenshot_1750924547.png) |
-| Analysis in Progress | Keywords & Sentiment | Complete AI Analysis |
+| ![Ready](screenshots/Screenshot_1750924511.png) | ![Keywords](screenshots/Screenshot_1750924536.png) | ![Complete](screenshots/Screenshot_1750924547.png) |
+| Analysis Ready | Keywords & Sentiment | Complete AI Analysis |
 
 </div>
 
-*Screenshots showing the complete workflow: API key setup, provider selection, analysis preparation, processing in progress, keyword & sentiment results, and final AI-generated insights.*
+*Screenshots showing the complete workflow: API key setup, provider selection, analysis in progress, analysis ready state, keyword & sentiment results, and final AI-generated insights.*
 
 ### 🎬 Live Demo
 To see the library in action, clone the repository and run the sample app:
@@ -69,7 +69,7 @@ Add the dependency to your `build.gradle.kts` (Module: app):
 ```kotlin
 dependencies {
     // AI Review Compose Library
-    implementation 'com.github.ilkeryildirim:compose-ai-review:v1.0.0'
+    implementation 'com.github.ilkeryildirim:compose-ai-review:v1.0.1'
     
     // Required dependencies (if not already added)
     implementation 'com.google.dagger:hilt-android:2.48'
