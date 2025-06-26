@@ -138,7 +138,7 @@ fun AddReviewCard(
                             AnimatedContent(
                                 targetState = isExpanded,
                                 transitionSpec = {
-                                    fadeIn(animationSpec = tween(200)) with fadeOut(animationSpec = tween(200))
+                                    fadeIn(animationSpec = tween(200)) togetherWith fadeOut(animationSpec = tween(200))
                                 }
                             ) { expanded ->
                                 Icon(
@@ -328,7 +328,7 @@ fun AddReviewCard(
                                         AnimatedContent(
                                             targetState = index < rating.toInt(),
                                             transitionSpec = {
-                                                scaleIn(animationSpec = tween(150)) with scaleOut(animationSpec = tween(150))
+                                                scaleIn(animationSpec = tween(150)) togetherWith scaleOut(animationSpec = tween(150))
                                             }
                                         ) { isSelected ->
                                             Text(
@@ -403,7 +403,7 @@ fun AddReviewCard(
                                 )
                             ) {
                                 Icon(
-                                    imageVector = Icons.Default.Send,
+                                    imageVector = Icons.AutoMirrored.Filled.Send,
                                     contentDescription = null,
                                     modifier = Modifier.size(18.dp)
                                 )

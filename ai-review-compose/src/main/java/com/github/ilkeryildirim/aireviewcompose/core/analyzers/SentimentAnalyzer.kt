@@ -5,6 +5,6 @@ import com.github.ilkeryildirim.aireviewcompose.data.models.SentimentResult
 interface SentimentAnalyzer {
     suspend fun analyzeSentiment(
         text: String,
-        language: String = "tr"
+        language: String
     ): SentimentResult
 } 

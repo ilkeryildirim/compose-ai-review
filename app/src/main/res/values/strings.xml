@@ -64,7 +64,7 @@
     <string name="ai_analysis_results">AI Analysis Results</string>
     <string name="reviews_analyzed">%d reviews analyzed</string>
     <string name="detected_category">Detected Category: %s</string>
-    <string name="confidence_percent">Confidence: %d%% • %s</string>
+    <string name="confidence_percent" formatted="false">%s (%d%% güven)</string>
     <string name="sentiment_analysis">%s Sentiment Analysis</string>
     <string name="confidence_score">Confidence Score</string>
     <string name="detailed_sentiment_distribution">Detailed Sentiment Distribution</string>

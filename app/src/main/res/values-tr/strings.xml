@@ -64,7 +64,7 @@
     <string name="ai_analysis_results">AI Analiz Sonuçları</string>
     <string name="reviews_analyzed">%d yorum analiz edildi</string>
     <string name="detected_category">Tespit Edilen Kategori: %s</string>
-    <string name="confidence_percent">Güven: %%%d • %s</string>
+    <string name="confidence_percent" formatted="false">%s (%d%% güven)</string>
     <string name="sentiment_analysis">%s Duygu Analizi</string>
     <string name="confidence_score">Güven Skoru</string>
     <string name="detailed_sentiment_distribution">Detaylı Duygu Dağılımı</string>

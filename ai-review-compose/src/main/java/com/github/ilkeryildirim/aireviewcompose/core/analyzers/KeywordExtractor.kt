@@ -5,6 +5,6 @@ import com.github.ilkeryildirim.aireviewcompose.data.models.Keyword
 interface KeywordExtractor {
     suspend fun extractKeywords(
         text: String,
-        maxKeywords: Int = 10
+        maxKeywords: Int
     ): List<Keyword>
 } 
