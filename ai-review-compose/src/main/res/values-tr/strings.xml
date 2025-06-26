@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ai-review-compose</string>
+    
+    <!-- Domain Insights -->
+    <!-- E-Commerce -->
+    <string name="insight_ecommerce_most_valued">En Değerlendirilen</string>
+    <string name="insight_ecommerce_most_valued_desc">Ürün kalitesi ve teslimat hızı</string>
+    <string name="insight_ecommerce_improvement">İyileştirme Alanı</string>
+    <string name="insight_ecommerce_improvement_desc">Müşteri hizmetleri yanıt süresi</string>
+    <string name="insight_ecommerce_suggestions">Öneriler</string>
+    <string name="insight_ecommerce_suggestions_desc">Paketleme kalitesini artırın</string>
+    
+    <!-- Food -->
+    <string name="insight_food_most_liked">En Beğenilen</string>
+    <string name="insight_food_most_liked_desc">Lezzet ve tazelik</string>
+    <string name="insight_food_improvement">İyileştirme Alanı</string>
+    <string name="insight_food_improvement_desc">Porsiyon büyüklüğü</string>
+    <string name="insight_food_suggestions">Öneriler</string>
+    <string name="insight_food_suggestions_desc">Malzeme kalitesini koruyun</string>
+    
+    <!-- Restaurant -->
+    <string name="insight_restaurant_most_liked">En Beğenilen</string>
+    <string name="insight_restaurant_most_liked_desc">Atmosfer ve konum</string>
+    <string name="insight_restaurant_improvement">İyileştirme Alanı</string>
+    <string name="insight_restaurant_improvement_desc">Servis hızı</string>
+    <string name="insight_restaurant_suggestions">Öneriler</string>
+    <string name="insight_restaurant_suggestions_desc">Personel eğitimini artırın</string>
+    
+    <!-- Service -->
+    <string name="insight_service_most_valued">En Değerlendirilen</string>
+    <string name="insight_service_most_valued_desc">Güvenilirlik ve profesyonellik</string>
+    <string name="insight_service_improvement">İyileştirme Alanı</string>
+    <string name="insight_service_improvement_desc">Yanıt süresi</string>
+    <string name="insight_service_suggestions">Öneriler</string>
+    <string name="insight_service_suggestions_desc">7/24 destek hizmeti</string>
+    
+    <!-- App -->
+    <string name="insight_app_most_liked">En Beğenilen</string>
+    <string name="insight_app_most_liked_desc">Kullanım kolaylığı</string>
+    <string name="insight_app_improvement">İyileştirme Alanı</string>
+    <string name="insight_app_improvement_desc">Uygulama hızı</string>
+    <string name="insight_app_suggestions">Öneriler</string>
+    <string name="insight_app_suggestions_desc">Bug fix ve optimizasyon</string>
+    
+    <!-- General -->
+    <string name="insight_general_status">Genel Durum</string>
+    <string name="insight_general_status_desc">Karışık geri bildirimler</string>
+    <string name="insight_general_focus">Odak Alanı</string>
+    <string name="insight_general_focus_desc">Müşteri memnuniyeti</string>
+    <string name="insight_general_strategy">Strateji</string>
+    <string name="insight_general_strategy_desc">Detaylı analiz gerekli</string>
+</resources> 

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ai-review-compose</string>
+    <!-- Domain Insights -->
+    <!-- E-Commerce -->
+    <string name="insight_ecommerce_most_valued">Most Valued</string>
+    <string name="insight_ecommerce_most_valued_desc">Product quality and delivery speed</string>
+    <string name="insight_ecommerce_improvement">Improvement Area</string>
+    <string name="insight_ecommerce_improvement_desc">Customer service response time</string>
+    <string name="insight_ecommerce_suggestions">Suggestions</string>
+    <string name="insight_ecommerce_suggestions_desc">Improve packaging quality</string>
+    
+    <!-- Food -->
+    <string name="insight_food_most_liked">Most Liked</string>
+    <string name="insight_food_most_liked_desc">Taste and freshness</string>
+    <string name="insight_food_improvement">Improvement Area</string>
+    <string name="insight_food_improvement_desc">Portion size</string>
+    <string name="insight_food_suggestions">Suggestions</string>
+    <string name="insight_food_suggestions_desc">Maintain ingredient quality</string>
+    
+    <!-- Restaurant -->
+    <string name="insight_restaurant_most_liked">Most Liked</string>
+    <string name="insight_restaurant_most_liked_desc">Atmosphere and location</string>
+    <string name="insight_restaurant_improvement">Improvement Area</string>
+    <string name="insight_restaurant_improvement_desc">Service speed</string>
+    <string name="insight_restaurant_suggestions">Suggestions</string>
+    <string name="insight_restaurant_suggestions_desc">Increase staff training</string>
+    
+    <!-- Service -->
+    <string name="insight_service_most_valued">Most Valued</string>
+    <string name="insight_service_most_valued_desc">Reliability and professionalism</string>
+    <string name="insight_service_improvement">Improvement Area</string>
+    <string name="insight_service_improvement_desc">Response time</string>
+    <string name="insight_service_suggestions">Suggestions</string>
+    <string name="insight_service_suggestions_desc">24/7 support service</string>
+    
+    <!-- App -->
+    <string name="insight_app_most_liked">Most Liked</string>
+    <string name="insight_app_most_liked_desc">Ease of use</string>
+    <string name="insight_app_improvement">Improvement Area</string>
+    <string name="insight_app_improvement_desc">Application speed</string>
+    <string name="insight_app_suggestions">Suggestions</string>
+    <string name="insight_app_suggestions_desc">Bug fixes and optimization</string>
+    
+    <!-- General -->
+    <string name="insight_general_status">General Status</string>
+    <string name="insight_general_status_desc">Mixed feedback</string>
+    <string name="insight_general_focus">Focus Area</string>
+    <string name="insight_general_focus_desc">Customer satisfaction</string>
+    <string name="insight_general_strategy">Strategy</string>
+    <string name="insight_general_strategy_desc">Detailed analysis required</string>
+</resources>

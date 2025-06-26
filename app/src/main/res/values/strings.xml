@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">🤖 AI Review Compose</string>
+    <string name="demo_description">Powerful AI-driven review analysis library</string>
+    
+    <!-- Main Screen -->
+    <string name="demo_title">Demo Application - Test the library features</string>
+    <string name="ai_analysis">AI Analysis</string>
+    <string name="reviews_ready">%d reviews ready</string>
+    <string name="analyze_button">▶️ Analyze</string>
+    <string name="ai_analyzing">🤖 AI analyzing…</string>
+    <string name="analyzing_reviews">Analyzing %d reviews</string>
+    <string name="analysis_error">❌ Analysis Error</string>
+    <string name="retry_button">🔄 Retry</string>
+    
+    <!-- Domain Selection -->
+    <string name="domain_selection">Domain Selection</string>
+    <string name="auto_detect_domain">🤖 Auto-detect domain</string>
+    <string name="select_domain">Select Domain:</string>
+    <string name="ai_auto_detect_desc">✨ AI will automatically detect the review domain</string>
+    <string name="selected_domain">📌 Selected: %1$s %2$s - %3$s</string>
+    <string name="please_select_domain">⚠️ Please select a domain</string>
+    
+    <!-- Add Review -->
+    <string name="add_new_review">Add New Review</string>
+    <string name="author_placeholder">e.g., John D.</string>
+    <string name="review_placeholder">Write your thoughts about the product/service…</string>
+    <string name="your_rating">⭐ Your Rating: %d/5</string>
+    <string name="clear_button">🗑️ Clear</string>
+    <string name="add_button">✅ Add</string>
+    <string name="total_reviews">Total reviews: %d</string>
+    <string name="expand">Expand</string>
+    <string name="collapse">Collapse</string>
+    <string name="author">Author</string>
+    <string name="review">Review</string>
+    <string name="rating">Rating</string>
+    <string name="enter_name_optional">Enter your name (optional)</string>
+    <string name="share_thoughts">Share your thoughts and experience...</string>
+    <string name="clear">Clear</string>
+    <string name="min_10_chars">Minimum 10 characters required</string>
+    
+    <!-- API Key Validation -->
+    <string name="api_key_empty">API key cannot be empty</string>
+    <string name="api_key_openai_format">OpenAI API key must start with \'sk-\'</string>
+    <string name="api_key_google_format">Google API key must start with \'AIza\'</string>
+    <string name="api_key_huggingface_format">HuggingFace API key must start with \'hf_\'</string>
+    <string name="api_key_too_short">API key is too short</string>
+    <string name="ai_setup">AI Setup</string>
+    <string name="hide">Hide</string>
+    <string name="show">Show</string>
+    <string name="initialize">Initialize</string>
+    <string name="selected">Selected</string>
+    <string name="language">Language</string>
+    <string name="author_name">Author Name</string>
+    <string name="your_review">Your Review</string>
+    
+    <!-- Reviews List -->
+    <string name="reviews_count">💬 Reviews (%d)</string>
+    <string name="delete">Delete</string>
+    <string name="delete_review">Delete Review</string>
+    <string name="anonymous">Anonymous</string>
+    
+    <!-- Analysis Results -->
+    <string name="ai_analysis_results">AI Analysis Results</string>
+    <string name="reviews_analyzed">%d reviews analyzed</string>
+    <string name="detected_category">Detected Category: %s</string>
+    <string name="confidence_percent">Confidence: %d%% • %s</string>
+    <string name="sentiment_analysis">%s Sentiment Analysis</string>
+    <string name="confidence_score">Confidence Score</string>
+    <string name="detailed_sentiment_distribution">Detailed Sentiment Distribution</string>
+    <string name="positive">😊 Positive</string>
+    <string name="negative">😞 Negative</string>
+    <string name="neutral">😐 Neutral</string>
+    <string name="keywords">Keywords</string>
+    <string name="specific_to_category">Specific to %s category</string>
+    <string name="summary_report">Summary Report</string>
+    <string name="focused_analysis">%s focused analysis</string>
+    <string name="highlights">✨ Highlights</string>
+    <string name="overall_rating">Overall Rating</string>
+    <string name="insights">%s Insights</string>
+    <string name="category_analysis_recommendations">Category-based analysis and recommendations</string>
+    
+    <!-- Sentiment Types -->
+    <string name="sentiment_positive">Positive</string>
+    <string name="sentiment_negative">Negative</string>
+    <string name="sentiment_neutral">Neutral</string>
+    <string name="sentiment_mixed">Mixed</string>
+    
+    <!-- Provider Configuration -->
+    <string name="provider_configuration">🚀 AI Provider Configuration</string>
+    <string name="select_provider">Select Provider</string>
+    <string name="select_model">Select Model</string>
+    <string name="api_key_label">%s API Key</string>
+    <string name="initialize_provider">🎯 Initialize %s</string>
+    <string name="selected_model">💡 Selected model: %s</string>
+    <string name="model_not_selected">Not selected</string>
+    <string name="active_ai_provider">🤖 Active AI Provider</string>
+    <string name="change_provider">Change</string>
+    
+    <!-- AI Models -->
+    <string name="tokens_per_minute">⚡ %dK TPM</string>
+    <string name="requests_per_minute">📈 %d RPM</string>
+    <string name="cost_efficiency">💰 %s</string>
+    
+    <!-- General -->
+    <string name="general">General</string>
+    <string name="loading">Loading…</string>
+    <string name="error">Error</string>
+    <string name="success">Success</string>
+    <string name="unknown_error">Unknown error occurred</string>
+    <string name="api_key">API Key</string>
+    <string name="enter_api_key">Enter API Key</string>
+    <string name="language_selection">Language Selection</string>
+    <string name="provider_setup_desc">Select and configure your AI provider</string>
+    <string name="speed">Speed</string>
+    <string name="cost">Cost</string>
+    <string name="high_efficiency">High Efficiency</string>
+    <string name="medium_efficiency">Medium Efficiency</string>
+    <string name="low_efficiency">Low Efficiency</string>
+    
+    <!-- AI Provider Types -->
+    <string name="provider_openai">OpenAI</string>
+    <string name="provider_openai_desc">ChatGPT and GPT-4 models</string>
+    <string name="provider_google">Google Gemini</string>
+    <string name="provider_google_desc">Gemini Pro and Gemini Flash</string>
+    <string name="provider_huggingface">HuggingFace</string>
+    <string name="provider_huggingface_desc">Open source models</string>
+    
+    <!-- Cost Efficiency -->
+    <string name="cost_efficiency_high">High</string>
+    <string name="cost_efficiency_medium">Medium</string>
+    <string name="cost_efficiency_low">Low</string>
+    
+    <!-- AI Model Descriptions -->
+    <string name="model_gpt35_desc">Fast and economical, general use</string>
+    <string name="model_gpt4_turbo_desc">Powerful and fast, advanced capabilities</string>
+    <string name="model_gpt4o_mini_desc">Latest mini model, optimized</string>
+    <string name="model_gpt4o_desc">Most advanced model, best quality</string>
+    <string name="model_gemini_flash_desc">Fast and efficient Google model</string>
+    <string name="model_gemini_pro_desc">Google\'s most advanced model</string>
+    <string name="model_llama_desc">Meta\'s open source model</string>
+    <string name="model_mistral_desc">Europe\'s powerful model</string>
+    
+    <!-- AI Features -->
+    <string name="feature_sentiment">Sentiment Analysis</string>
+    <string name="feature_keywords">Keyword Extraction</string>
+    <string name="feature_summary">Summary Generation</string>
+    <string name="feature_comprehensive">Comprehensive Analysis</string>
+    <string name="feature_realtime">Real-time Analysis</string>
+
+</resources>

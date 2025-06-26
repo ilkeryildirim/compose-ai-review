@@ -1,33 +1,72 @@
-# Gradle files
-.gradle/
-build/
+/local.properties
 
-# Local configuration file (sdk path, etc)
-local.properties
+/build/
+**/build
 
-# Log/OS Files
-*.log
-
-# Android Studio generated files and folders
-captures/
-.externalNativeBuild/
-.cxx/
-*.apk
-output.json
-
-# IntelliJ
+### Android Studio files ###
 *.iml
-.idea/
-misc.xml
-deploymentTargetDropDown.xml
-render.experimental.xml
+.idea/assetWizardSettings.xml
+.idea/modules.xml
+.idea/jarRepositories.xml
+.idea/compiler.xml
+.idea/kotlinc.xml
+.idea/inspectionProfiles/Project_Default.xml
+.idea/deploymentTargetSelector.xml
+.idea/appInsightsSettings.xml
+.idea/other.xml
+.idea/AndroidProjectSystem.xml
+.idea/codeStyles/Project.xml
 
-# Keystore files
-*.jks
-*.keystore
+# User-specific stuff:
+.cursor
+.idea
+.idea/workspace.xml
+.idea/tasks.xml
+.idea/dictionaries
+.idea/androidTestResultsUserPreferences.xml
+.idea/deploymentTargetDropDown.xml
+.idea/shelf/*
+*/.idea/copilot/
+.idea/migrations.xml
+.idea/caches/
+.idea/runConfigurations.xml
 
-# Google Services (e.g. APIs or Firebase)
-google-services.json
+# Sensitive or high-churn files:
+.idea/dataSources.ids
+.idea/dataSources.xml
+.idea/sqlDataSources.xml
+.idea/dynamic.xml
+.idea/uiDesigner.xml
+.idea/navEditor.xml
 
-# Android Profiling
-*.hprof
+# Gradle:
+.idea/gradle.xml
+.idea/libraries
+.idea/encodings.xml
+.idea/misc.xml
+.idea/vcs.xml
+.gradle
+
+#Captures
+captures
+
+## File-based project format:
+*.ipr
+*.iws
+/.idea/caches/build_file_checksums.ser
+/.idea/caches/gradle_models.ser
+
+## Google API key files
+/app/src/debug/res/values/google_maps_api.xml
+/app/src/release/res/values/google_maps_api.xml
+/app/src/qa/res/values/google_maps_api.xml
+
+## Transifex script project
+/transifex/
+
+## Generated Files
+*.DS_Store
+wget-log
+
+credentials.properties
+.kotlin

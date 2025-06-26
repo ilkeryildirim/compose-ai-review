@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">🤖 AI Yorum Analizi</string>
+    <string name="demo_description">Güçlü AI destekli yorum analiz kütüphanesi</string>
+    
+    <!-- Main Screen -->
+    <string name="demo_title">Demo Uygulaması - Kütüphane özelliklerini test edin</string>
+    <string name="ai_analysis">AI Analiz</string>
+    <string name="reviews_ready">%d yorum hazır</string>
+    <string name="analyze_button">▶️ Analiz Et</string>
+    <string name="ai_analyzing">🤖 AI analizi yapılıyor…</string>
+    <string name="analyzing_reviews">%d yorum analiz ediliyor</string>
+    <string name="analysis_error">❌ Analiz Hatası</string>
+    <string name="retry_button">🔄 Tekrar Dene</string>
+    
+    <!-- Domain Selection -->
+    <string name="domain_selection">Domain Seçimi</string>
+    <string name="auto_detect_domain">🤖 Otomatik domain tespiti</string>
+    <string name="select_domain">Domain Seçin:</string>
+    <string name="ai_auto_detect_desc">✨ AI otomatik olarak yorum domain\'ini tespit edecek</string>
+    <string name="selected_domain">📌 Seçilen: %1$s %2$s - %3$s</string>
+    <string name="please_select_domain">⚠️ Lütfen bir domain seçin</string>
+    
+    <!-- Add Review -->
+    <string name="add_new_review">Yeni Yorum Ekle</string>
+    <string name="author_name">👤 Yazar Adı</string>
+    <string name="author_placeholder">Örn: Ahmet K.</string>
+    <string name="your_review">💭 Yorumunuz</string>
+    <string name="review_placeholder">Ürün/Hizmet hakkındaki düşüncelerinizi yazın…</string>
+    <string name="your_rating">⭐ Puanınız: %d/5</string>
+    <string name="clear_button">🗑️ Temizle</string>
+    <string name="add_button">✅ Ekle</string>
+    <string name="total_reviews">Toplam yorum: %d</string>
+    <string name="expand">Genişlet</string>
+    <string name="collapse">Daralt</string>
+    <string name="author">Yazar</string>
+    <string name="review">Yorum</string>
+    <string name="rating">Puan</string>
+    <string name="enter_name_optional">İsminizi girin (isteğe bağlı)</string>
+    <string name="share_thoughts">Düşünce ve deneyimlerinizi paylaşın...</string>
+    <string name="clear">Temizle</string>
+    <string name="min_10_chars">Minimum 10 karakter gerekli</string>
+    
+    <!-- API Key Validation -->
+    <string name="api_key_empty">API anahtarı boş olamaz</string>
+    <string name="api_key_openai_format">OpenAI API anahtarı \'sk-\' ile başlamalıdır</string>
+    <string name="api_key_google_format">Google API anahtarı \'AIza\' ile başlamalıdır</string>
+    <string name="api_key_huggingface_format">HuggingFace API anahtarı \'hf_\' ile başlamalıdır</string>
+    <string name="api_key_too_short">API anahtarı çok kısa</string>
+    <string name="ai_setup">AI Kurulum</string>
+    <string name="hide">Gizle</string>
+    <string name="show">Göster</string>
+    <string name="initialize">Başlat</string>
+    <string name="selected">Seçildi</string>
+    <string name="language">Dil</string>
+    
+    <!-- Reviews List -->
+    <string name="reviews_count">💬 Yorumlar (%d)</string>
+    <string name="delete">Sil</string>
+    <string name="delete_review">Yorumu Sil</string>
+    <string name="anonymous">Anonim</string>
+    
+    <!-- Analysis Results -->
+    <string name="ai_analysis_results">AI Analiz Sonuçları</string>
+    <string name="reviews_analyzed">%d yorum analiz edildi</string>
+    <string name="detected_category">Tespit Edilen Kategori: %s</string>
+    <string name="confidence_percent">Güven: %%%d • %s</string>
+    <string name="sentiment_analysis">%s Duygu Analizi</string>
+    <string name="confidence_score">Güven Skoru</string>
+    <string name="detailed_sentiment_distribution">Detaylı Duygu Dağılımı</string>
+    <string name="positive">😊 Pozitif</string>
+    <string name="negative">😞 Negatif</string>
+    <string name="neutral">😐 Nötr</string>
+    <string name="keywords">Anahtar Kelimeler</string>
+    <string name="specific_to_category">%s kategorisine özel</string>
+    <string name="summary_report">Özet Rapor</string>
+    <string name="focused_analysis">%s odaklı analiz</string>
+    <string name="highlights">✨ Öne Çıkanlar</string>
+    <string name="overall_rating">Genel Puan</string>
+    <string name="insights">%s İçgörüleri</string>
+    <string name="category_analysis_recommendations">Kategori bazlı analiz ve öneriler</string>
+    
+    <!-- Sentiment Types -->
+    <string name="sentiment_positive">Pozitif</string>
+    <string name="sentiment_negative">Negatif</string>
+    <string name="sentiment_neutral">Nötr</string>
+    <string name="sentiment_mixed">Karışık</string>
+    
+    <!-- Provider Configuration -->
+    <string name="provider_configuration">🚀 AI Provider Konfigürasyonu</string>
+    <string name="select_provider">Provider Seçin</string>
+    <string name="select_model">Model Seçin</string>
+    <string name="api_key_label">%s API Key</string>
+    <string name="initialize_provider">🎯 %s Başlat</string>
+    <string name="selected_model">💡 Seçilen model: %s</string>
+    <string name="model_not_selected">Seçilmedi</string>
+    <string name="active_ai_provider">🤖 Aktif AI Provider</string>
+    <string name="change_provider">Değiştir</string>
+    
+    <!-- AI Models -->
+    <string name="tokens_per_minute">⚡ %dK TPM</string>
+    <string name="requests_per_minute">📈 %d RPM</string>
+    <string name="cost_efficiency">💰 %s</string>
+    
+    <!-- General -->
+    <string name="general">Genel</string>
+    <string name="loading">Yükleniyor…</string>
+    <string name="error">Hata</string>
+    <string name="success">Başarılı</string>
+    <string name="unknown_error">Bilinmeyen hata oluştu</string>
+    <string name="api_key">API Anahtarı</string>
+    <string name="enter_api_key">API Anahtarını Girin</string>
+    <string name="language_selection">Dil Seçimi</string>
+    <string name="provider_setup_desc">AI sağlayıcınızı seçin ve yapılandırın</string>
+    <string name="speed">Hız</string>
+    <string name="cost">Maliyet</string>
+    <string name="high_efficiency">Yüksek Verimlilik</string>
+    <string name="medium_efficiency">Orta Verimlilik</string>
+    <string name="low_efficiency">Düşük Verimlilik</string>
+    
+    <!-- AI Provider Types -->
+    <string name="provider_openai">OpenAI</string>
+    <string name="provider_openai_desc">ChatGPT ve GPT-4 modelleri</string>
+    <string name="provider_google">Google Gemini</string>
+    <string name="provider_google_desc">Gemini Pro ve Gemini Flash</string>
+    <string name="provider_huggingface">HuggingFace</string>
+    <string name="provider_huggingface_desc">Açık kaynak modeller</string>
+    
+    <!-- Cost Efficiency -->
+    <string name="cost_efficiency_high">Yüksek</string>
+    <string name="cost_efficiency_medium">Orta</string>
+    <string name="cost_efficiency_low">Düşük</string>
+    
+    <!-- AI Model Descriptions -->
+    <string name="model_gpt35_desc">Hızlı ve ekonomik, genel kullanım</string>
+    <string name="model_gpt4_turbo_desc">Güçlü ve hızlı, gelişmiş yetenekler</string>
+    <string name="model_gpt4o_mini_desc">En yeni mini model, optimize edilmiş</string>
+    <string name="model_gpt4o_desc">En gelişmiş model, en iyi kalite</string>
+    <string name="model_gemini_flash_desc">Hızlı ve verimli Google modeli</string>
+    <string name="model_gemini_pro_desc">Google\'ın en gelişmiş modeli</string>
+    <string name="model_llama_desc">Meta\'nın açık kaynak modeli</string>
+    <string name="model_mistral_desc">Avrupa\'nın güçlü modeli</string>
+    
+    <!-- AI Features -->
+    <string name="feature_sentiment">Duygu Analizi</string>
+    <string name="feature_keywords">Anahtar Kelime Çıkarma</string>
+    <string name="feature_summary">Özet Oluşturma</string>
+    <string name="feature_comprehensive">Kapsamlı Analiz</string>
+    <string name="feature_realtime">Gerçek Zamanlı Analiz</string>
+
+
+</resources> 
