@@ -69,7 +69,7 @@ Add the dependency to your `build.gradle.kts` (Module: app):
 ```kotlin
 dependencies {
     // AI Review Compose Library
-    implementation 'com.github.ilkeryildirim:compose-ai-review:v1.0.2'
+    implementation 'com.github.ilkeryildirim:compose-ai-review:v1.0.3'
     
     // Required dependencies (if not already added)
     implementation 'com.google.dagger:hilt-android:2.48'
