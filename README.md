@@ -20,9 +20,30 @@ A powerful Android library for AI-powered review analysis using **OpenAI** and *
 
 ## 📸 Screenshots
 
-<!-- Add your screenshots here -->
+<div align="center">
 
-*Screenshots will be added soon*
+| Configuration | Analysis | Results |
+|:---:|:---:|:---:|
+| ![Config](screenshots/Screenshot_1750924495.png) | ![Analysis](screenshots/Screenshot_1750924506.png) | ![Results](screenshots/Screenshot_1750924509.png) |
+| Provider Setup | Review Processing | Sentiment & Keywords |
+
+| Provider Selection | Language Support | Comprehensive Analysis |
+|:---:|:---:|:---:|
+| ![Providers](screenshots/Screenshot_1750924511.png) | ![Language](screenshots/Screenshot_1750924536.png) | ![Complete](screenshots/Screenshot_1750924547.png) |
+| Multiple AI Providers | Multi-language | Complete Workflow |
+
+</div>
+
+*Screenshots showing the complete workflow: provider configuration, review analysis, and real-time results with sentiment analysis, keyword extraction, and intelligent summaries.*
+
+### 🎬 Live Demo
+To see the library in action, clone the repository and run the sample app:
+
+```bash
+git clone https://github.com/ilkeryildirim/compose-ai-review.git
+cd compose-ai-review
+# Open in Android Studio and run the app module
+```
 
 ## 🚀 Quick Start
 
@@ -251,7 +272,7 @@ If you have any questions or need help, please:
 
 1. Check the [Issues](https://github.com/ilkeryildirim/AI-Review-Compose/issues) page
 2. Create a new issue if your problem isn't already reported
-3. Contact: ilkeryildirim@gmail.com
+3. Contact: ilkeryildirimdev@gmail.com
 
 ---
 
