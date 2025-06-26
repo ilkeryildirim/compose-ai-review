@@ -1,9 +1,10 @@
 # AI Review Compose 🤖📱
 
-[![](https://jitpack.io/v/ilkeryildirim/AI-Review-Compose.svg)](https://jitpack.io/#ilkeryildirim/AI-Review-Compose)
+[![JitPack](https://jitpack.io/v/ilkeryildirim/compose-ai-review.svg)](https://jitpack.io/#ilkeryildirim/compose-ai-review)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Android](https://img.shields.io/badge/Platform-Android-green.svg)](https://developer.android.com)
 [![Compose](https://img.shields.io/badge/Jetpack-Compose-blue.svg)](https://developer.android.com/jetpack/compose)
+[![API](https://img.shields.io/badge/API-21%2B-brightgreen.svg?style=flat)](https://android-arsenal.com/api?level=21)
 
 A powerful Android library for AI-powered review analysis using **OpenAI** and **Google Gemini** providers. Built with **Jetpack Compose** and **Kotlin**, this library provides comprehensive sentiment analysis, keyword extraction, and intelligent summaries for user reviews.
 
@@ -22,19 +23,19 @@ A powerful Android library for AI-powered review analysis using **OpenAI** and *
 
 <div align="center">
 
-| Configuration | Analysis | Results |
+| Setup & Configuration | Provider Selection | Analysis Screen (Ready) |
 |:---:|:---:|:---:|
-| ![Config](screenshots/Screenshot_1750924495.png) | ![Analysis](screenshots/Screenshot_1750924506.png) | ![Results](screenshots/Screenshot_1750924509.png) |
-| Provider Setup | Review Processing | Sentiment & Keywords |
+| ![Setup](screenshots/Screenshot_1750924495.png) | ![Provider](screenshots/Screenshot_1750924506.png) | ![Ready](screenshots/Screenshot_1750924509.png) |
+| API Key Setup | Provider Selection | Analysis Ready |
 
-| Provider Selection | Language Support | Comprehensive Analysis |
+| Analysis Started | Reviews & Results | AI Response |
 |:---:|:---:|:---:|
-| ![Providers](screenshots/Screenshot_1750924511.png) | ![Language](screenshots/Screenshot_1750924536.png) | ![Complete](screenshots/Screenshot_1750924547.png) |
-| Multiple AI Providers | Multi-language | Complete Workflow |
+| ![Started](screenshots/Screenshot_1750924511.png) | ![Keywords](screenshots/Screenshot_1750924536.png) | ![Complete](screenshots/Screenshot_1750924547.png) |
+| Analysis in Progress | Keywords & Sentiment | Complete AI Analysis |
 
 </div>
 
-*Screenshots showing the complete workflow: provider configuration, review analysis, and real-time results with sentiment analysis, keyword extraction, and intelligent summaries.*
+*Screenshots showing the complete workflow: API key setup, provider selection, analysis preparation, processing in progress, keyword & sentiment results, and final AI-generated insights.*
 
 ### 🎬 Live Demo
 To see the library in action, clone the repository and run the sample app:
@@ -47,19 +48,7 @@ cd compose-ai-review
 
 ## 🚀 Quick Start
 
-### Option 1: Use as Library Only
-
-Add the dependency to your `build.gradle.kts` (Module: app):
-
-```kotlin
-dependencies {
-    implementation 'com.github.ilkeryildirim:AI-Review-Compose:1.0.0'
-
-    // Required dependencies
-    implementation 'com.google.dagger:hilt-android:2.48'
-    kapt 'com.google.dagger:hilt-compiler:2.48'
-}
-```
+### Step 1: Add JitPack Repository
 
 Add JitPack repository to your `settings.gradle.kts`:
 
@@ -73,14 +62,43 @@ dependencyResolutionManagement {
 }
 ```
 
-### Option 2: Clone the Complete Project
+### Step 2: Add Dependencies
 
-```bash
-git clone https://github.com/ilkeryildirim/AI-Review-Compose.git
-cd AI-Review-Compose
+Add the dependency to your `build.gradle.kts` (Module: app):
+
+```kotlin
+dependencies {
+    // AI Review Compose Library
+    implementation 'com.github.ilkeryildirim:compose-ai-review:v1.0.0'
+    
+    // Required dependencies (if not already added)
+    implementation 'com.google.dagger:hilt-android:2.48'
+    kapt 'com.google.dagger:hilt-compiler:2.48'
+    implementation 'androidx.hilt:hilt-navigation-compose:1.1.0'
+}
 ```
 
-Open the project in Android Studio and run the sample app to see the library in action.
+### Step 3: Enable Hilt
+
+Add Hilt plugin to your app-level `build.gradle.kts`:
+
+```kotlin
+plugins {
+    id 'dagger.hilt.android.plugin'
+    id 'kotlin-kapt'
+}
+```
+
+### Alternative: Clone Complete Project
+
+To explore the full implementation and run the sample app:
+
+```bash
+git clone https://github.com/ilkeryildirim/compose-ai-review.git
+cd compose-ai-review
+```
+
+Open the project in Android Studio and run the `app` module to see the library in action with a complete demo.
 
 ## 📖 Usage
 
@@ -270,9 +288,14 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 If you have any questions or need help, please:
 
-1. Check the [Issues](https://github.com/ilkeryildirim/AI-Review-Compose/issues) page
+1. Check the [Issues](https://github.com/ilkeryildirim/compose-ai-review/issues) page
 2. Create a new issue if your problem isn't already reported
-3. Contact: ilkeryildirimdev@gmail.com
+3. Star ⭐ the repository if you find it useful
+4. Contact: ilkeryildirimdev@gmail.com
+
+### 📈 JitPack Status
+
+Check the build status on [JitPack](https://jitpack.io/#ilkeryildirim/compose-ai-review) to ensure the latest version is available.
 
 ---
 
